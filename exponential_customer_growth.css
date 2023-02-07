@@ -1,0 +1,19 @@
+@import "vars";
+@import "fonts";
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+.product-card-page {
+  @include media-breakpoint-down(xl) {
+    background-color: $colorWhite;
+  }
+  
+  @include media-breakpoint-down(sm) {
+    padding-bottom: 60px;
+  }
